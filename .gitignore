@@ -1,0 +1,62 @@
+.classpath
+.idea
+.project
+.settings/
+buildNumber.properties
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+*~
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Dashboard specific #
+##################
+*.sass-cache*
+
+.bash_profile
+.bower_components/
+.sass-cache/
+*.tmp
+
+atlassian-ide-plugin.xml
+NOTES
+NOTES.md
+
+NOTES.md
+
+dist/
+log/
+node_modules/
+target/
+test/bower_components/**/*.*
