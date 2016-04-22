@@ -1,0 +1,123 @@
+<!-- start: MAIN NAVIGATION MENU -->
+<div class="navbar-title">
+    <span translate="sidebar.heading.NAVIGATION">Main Navigation</span>
+</div>
+<ul class="main-navigation-menu">
+    <li ui-sref-active="active">
+        <a ui-sref="app.dashboard">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.dashboard.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.dashboard.MAIN"> Overview </span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li ng-class="{'active open':$state.includes('app.ui')}">
+        <a href="javascript:void(0)">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.element.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.element.MAIN"> UI Elements </span><i class="icon-arrow"></i>
+                </div>
+            </div>
+        </a>
+        <ul class="sub-menu">
+            <li ui-sref-active="active">
+                <a ui-sref="app.ui.panels"> <span class="title" translate="sidebar.nav.element.PANELS"> Panels </span> </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.ui.notifications"> <span class="title" translate="sidebar.nav.element.NOTIFICATIONS"> Notifications </span> </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.ui.sliders"> <span class="title" translate="sidebar.nav.element.SLIDERS"> Sliders </span> </a>
+            </li>
+        </ul>
+    </li>
+    <li ng-class="{'active open':$state.includes('app.table')}">
+        <a href="javascript:void(0)">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.tables.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.tables.MAIN"> Tables </span><i class="icon-arrow"></i>
+                </div>
+            </div>
+        </a>
+        <ul class="sub-menu">
+            <li ui-sref-active="active">
+                <a ui-sref="app.table.basic"> <span class="title" translate="sidebar.nav.tables.BASIC">Basic Tables</span> </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.table.dynamic"> <span class="title" translate="sidebar.nav.tables.DYNAMIC">Dynamic Tables</span> </a>
+            </li>
+        </ul>
+    </li>
+    <li ng-class="{'active open':$state.includes('app.form')}">
+        <a href="javascript:void(0)">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.forms.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.forms.MAIN"> Forms </span><i class="icon-arrow"></i>
+                </div>
+            </div>
+        </a>
+        <ul class="sub-menu">
+            <li ui-sref-active="active">
+                <a ui-sref="app.form.elements"> <span class="title" translate="sidebar.nav.forms.ELEMENTS">Form Elements</span> </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.form.validation"> <span class="title" translate="sidebar.nav.forms.VALIDATION">Form Validation</span> </a>
+            </li>
+        </ul>
+    </li>
+    <li ng-class="{'active open':$state.includes('app.pages')}">
+        <a href="javascript:void(0)">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.pages.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.pages.MAIN"> Pages </span><i class="icon-arrow"></i>
+                </div>
+            </div>
+        </a>
+        <ul class="sub-menu">
+            <li ui-sref-active="active">
+                <a ui-sref="app.pages.blank"> <span class="title" translate="sidebar.nav.pages.BLANKPAGE">Blank Page</span> </a>
+            </li>
+        </ul>
+    </li>
+    <li ui-sref-active="active">
+        <a ui-sref="app.maps">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.maps.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.maps.MAIN"> Maps </span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li ui-sref-active="active">
+        <a ui-sref="app.charts">
+            <div class="item-content">
+                <div class="item-media">
+                    <letter-icon data="{{ 'sidebar.nav.charts.MAIN' | translate }}" char-count="2" size="sm"></letter-icon>
+                </div>
+                <div class="item-inner">
+                    <span class="title" translate="sidebar.nav.charts.MAIN"> Charts </span>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+<!-- end: MAIN NAVIGATION MENU -->
